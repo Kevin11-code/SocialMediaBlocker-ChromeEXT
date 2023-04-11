@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Procrastination Blocker",
+  "name": "Cryptojacking Detection Master",
   "version": "0.1.1",
   "content_scripts": [
     {
@@ -8,10 +8,10 @@
       "js": ["Content.js"]
     }
   ],
-  "icons": { "48": "icon48.png", "128": "icon128.png" },
+  "icons": { "48": "logo.png", "128": "logo.png" },
   "action": {
-    "default_popup": "Popup.html",
-    "default_title": "Procrastination Blocker"
+    "default_popup": "html/popup.html",
+    "default_title": "Cryptojacking Detection Master"
   },
 
   "permissions": ["storage"]

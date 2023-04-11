@@ -243,10 +243,10 @@ const generateHTML = (pageName) => {
       <div class="cloud x5"></div>
   </div>
   <div class='c'>
-      <div class='_404'>404</div>
+      <div class='_404'>Danger</div>
       <hr>
-      <div class='_1'>GET BACK TO WORK</div>
-      <div class='_2'>STUDYING > ${pageName}</div>
+      <div class='_1'>Crytojacking Detected</div>
+      <div class='_2'>Malicious Site ${pageName}</div>
   </div>
    `;
 };
@@ -260,28 +260,28 @@ for (let i = 0; i < blacklist.length; i++) {
     document.body.innerHTML = generateHTML("Crytptojacking Therat");
   }
 }
-if (window.location.hostname.endsWith("www.youtube.com")) {
-  document.head.innerHTML = generateSTYLES();
-  document.body.innerHTML = generateHTML("YOUTUBE");
-  //   break;
-  // case "www.v3cars.com":
-  //   document.head.innerHTML = generateSTYLES();
-  //   document.body.innerHTML = generateHTML("FACEBOOK");
-  //   break;
-  // case "www.netflix.com":
-  //   document.head.innerHTML = generateSTYLES();
-  //   document.body.innerHTML = generateHTML("NETFLIX");
-  //   break;
-  // case "www.roblox.com":
-  //   document.head.innerHTML = generateSTYLES();
-  //   document.body.innerHTML = generateHTML("ROBLOX");
-  //   break;
-  // case "discord.com":
-  //   document.head.innerHTML = generateSTYLES();
-  //   document.body.innerHTML = generateHTML("DISCORD");
-  //   break;
-  // case "www.spotify.com":
-  //   document.head.innerHTML = generateSTYLES();
-  //   document.body.innerHTML = generateHTML("SPOTIFY");
-  //   break;
-}
+// if (window.location.hostname.endsWith("www.youtube.com")) {
+//   document.head.innerHTML = generateSTYLES();
+//   document.body.innerHTML = generateHTML("YOUTUBE");
+//   break;
+// case "www.v3cars.com":
+//   document.head.innerHTML = generateSTYLES();
+//   document.body.innerHTML = generateHTML("FACEBOOK");
+//   break;
+// case "www.netflix.com":
+//   document.head.innerHTML = generateSTYLES();
+//   document.body.innerHTML = generateHTML("NETFLIX");
+//   break;
+// case "www.roblox.com":
+//   document.head.innerHTML = generateSTYLES();
+//   document.body.innerHTML = generateHTML("ROBLOX");
+//   break;
+// case "discord.com":
+//   document.head.innerHTML = generateSTYLES();
+//   document.body.innerHTML = generateHTML("DISCORD");
+//   break;
+// case "www.spotify.com":
+//   document.head.innerHTML = generateSTYLES();
+//   document.body.innerHTML = generateHTML("SPOTIFY");
+//   break;
+// }
